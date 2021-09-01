@@ -1,3 +1,9 @@
 micronaut:
   application:
     name: exceptionHandler
+
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+
+dogapi:
+  key: ${DOG_API_KEY:123}
